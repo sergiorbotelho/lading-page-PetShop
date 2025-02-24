@@ -32,10 +32,15 @@ export function About() {
           <div className="space-y-6 mt-10" data-aos="fade-up-left">
             <h2 className="text-4xl font-bold">SOBRE</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Similique fugit molestiae assumenda sunt laudantium vel hic
-              laborum iusto molestias numquam harum rerum animi esse earum
-              maiores, saepe voluptatem accusantium. Dicta?
+              Seja bem-vindo ao nosso petshop, um espaço dedicado ao cuidado e
+              bem-estar do seu animal de estimação! Aqui, paixão e
+              profissionalismo se unem para oferecer uma experiência completa,
+              desde a nutrição adequada com rações premium até o relaxamento de
+              um banho e tosa. Nossa equipe, composta por especialistas
+              apaixonados por animais, está pronta para atender às necessidades
+              do seu pet, proporcionando um ambiente acolhedor e seguro. Venha
+              nos visitar e descubra como podemos tornar a vida do seu
+              companheiro ainda mais feliz e saudável!
             </p>
             <ul className="space-y-4">
               <li className="flex items-center gap-2">
