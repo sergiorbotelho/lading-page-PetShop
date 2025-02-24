@@ -19,7 +19,10 @@ export function Hero() {
       <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
           <div className="space-y-6">
-            <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl leading-10">
+            <h1
+              className="text-3xl font-bold md:text-4xl lg:text-5xl leading-10"
+              data-aos="fade-down"
+            >
               Seu pet merece cuidade, carinho e atenção.
             </h1>
             <p className="lg:text-lg">
@@ -30,6 +33,7 @@ export function Hero() {
             <a
               href="#"
               className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
+              data-aos="flip-left"
             >
               <WhatsappLogo className="w-5 h-5" />
               Contato via WhatsApp
@@ -40,7 +44,7 @@ export function Hero() {
                 <b className="bg-black text-white px-2 py-1 rounded-md">5%</b>{" "}
                 de desconto na primeira compra
               </p>
-              <div className="flex mt-4">
+              <div className="flex mt-4" data-aos="fade-left">
                 <div className="w-32 hidden lg:block">
                   <Image
                     src={catImg}
